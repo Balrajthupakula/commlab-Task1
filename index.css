@@ -1,0 +1,268 @@
+.main-container{
+    background-image: url('https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-banner.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.para-head-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.paragraph{
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    
+}
+.first-heading{
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.img-texture-cart{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.hosts-logo{
+    width: 80%;
+    height: 350px;
+}
+@media screen and (max-width: 769px) {
+    .img-texture-cart{
+        flex-direction: column;
+    }
+    .hosts-logo{
+       width: 48%;
+    }
+
+}
+
+.texture-container{
+    background-image: url('https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-texture-bg.jpg');
+    background-size: cover;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+@media screen and (max-width: 769px) {
+    .texture-container{
+       width: 48%;
+    }
+    .img-texture-cart{
+        flex-direction: column;
+    }
+    .button-cart{
+        width: 300px;
+    }
+}
+
+.logos-container{
+    display: flex;
+    background-color: rgb(240, 0, 0,0.5);
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.heading-img{
+    width: 80%;
+    height: 100px;
+}
+
+.live-heading{
+    background-color: black;
+    color: #ffffff;
+}
+.span-element{
+    text-decoration: line-through;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+.btn-head{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.button-cart{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(211, 24, 24);
+    width: 250px;
+    height: 80px;
+    border-radius: 10px;
+    margin: 10px 20px 10px 20px;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+   
+
+}
+.font-icon{
+    color: white;
+    font-size: 40px;
+    margin-right: 14px;
+
+}
+
+.robot-container{
+    background-image: url('https://media.istockphoto.com/id/1414699113/photo/small-robot-assistant-work-with-graphic-display.jpg?s=1024x1024&w=is&k=20&c=zui_RAZzoQeN2wf-2hV5L6WzIfIV7UcEeIO6OYgwh9g=');
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    background-attachment: fixed;
+
+}
+@media screen and (max-width: 769px) {
+.robot-container{
+    margin-right: 14px;
+    margin-left: 14px;
+}
+}
+.you-will-learn-points{
+    margin-bottom: 10px;
+}
+
+.hosts-profile-container{
+    display: flex;
+    background-color: black;
+    color:#ffffff;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    flex-direction: column;
+    width: 100%;
+
+}
+.host-image{
+    width: 100%;
+}
+.profile-cart{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 12px;
+    
+}
+.profile-cart-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+}
+@media screen and (min-width: 769px) {
+    .profile-cart{
+        width: 33%;
+    }
+    .profile-cart-container{
+        flex-direction: row;
+    }
+}
+
+.last-cantainer{
+ width: 100%;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ color: #ffffff;
+ border: 1px solid #ffffff;
+ 
+}
+.company-logo-cart{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-top: 15px;
+   
+}
+.privacy-policy{
+    color: #ffffff;
+    margin-right: 24px;
+}
+.logo-copyright{
+    margin-left: 30px;
+}
+
+
+
+/* popup styling */
+/* popup styling */
+
+.popup {
+
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.popup-content {
+    background-image: url('https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-texture-bg.jpg');
+    background-size: cover;
+    width: 500px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Styles for the div element */
+.div-element {
+    width: 200px;
+    height: 50px;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.secure-seat-btn{
+    background-color: rgb(231, 66, 45);
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    color: #ffffff;
+    margin-top: 14px;
+}
+.star-symbol{
+    color: red;
+}
+.error-message{
+  
+     color: red;
+}
