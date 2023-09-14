@@ -46,6 +46,7 @@
     /* background-image: url('https://resources.commlabindia.com/hubfs/webinars/corporate-training-with-ai-speakers-v2.png');
     background-size: cover; */
     width: 90%;
+    margin: 16px;
    
     
 }
@@ -183,6 +184,7 @@
 }
 .host-image{
     width: 100%;
+    margin: 16px;
 }
 .profile-cart{
     width: 80%;
