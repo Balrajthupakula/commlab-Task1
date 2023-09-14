@@ -56,7 +56,7 @@
         </div >
 
         <div class='robot-container'>
-                <h1>YOU WILL LEARN:</h1>
+                <h1 class="you-will-learn-head">YOU WILL LEARN:</h1>
                 <ul>
                     <li class="you-will-learn-points">Evolution of AI and Corporate training</li>
                     <li class="you-will-learn-points">How AI can close skills gaps with rapid upskilling and reskilling</li>
@@ -66,7 +66,7 @@
                     <li class="you-will-learn-points">Ethical considerations of using AI</li>
                 </ul>
                 <h1>Unleashing the Potential of AI in Corporate Training</h1>
-                <p>Wednesday, October 11, 2023
+                <p class="date-time-robot-cart">Wednesday, October 11, 2023
                     11 am Eastern | 8 am Pacific</p>
                 
                 <div  class="button-cart" onclick="openPopup()">
@@ -84,33 +84,44 @@
             <div class="profile-cart-container">
                 <div class="profile-cart">
                     <img class="host-image" src="https://resources.commlabindia.com/hubfs/webinars/rk-prasad-ai-webinar.jpg" alt="'profile" />
-                    <h1>RK Prasad</h1>
-                    <h2>CEO & Co-Founder</h2>
-                    <p>RK has nurtured CommLab India from concept to commercial success, and is responsible for formulating the business strategy. He is also responsible for nurturing customer relationships. 
+                    <h1 class="host-name">RK Prasad</h1>
+                    <h2 class="host-disignation">CEO & Co-Founder</h2>
+                    <p class="profile-pragraph">RK has nurtured CommLab India from concept to commercial success, and is responsible for formulating the business strategy. He is also responsible for nurturing customer relationships.
+                        <br /> 
+                        <br />
 
-                        An entrepreneur at heart, RK has 35 years of experience in Sales, Corporate training, University teaching, and eLearning. He regularly conducts seminars and webinars for customers across the world on various topics of technology-enhanced learning.
+                        An entrepreneur at heart, RK has 35 years of experience in Sales, Corporate training, University teaching, and eLearning. He regularly conducts seminars and webinars for customers across the world on various topics of technology-enhanced learning.<br />
+                        <br />
                         
-                        RK holds a PhD in Mobile Learning from Lancaster University, UK, and an MBA.
+                        RK holds a PhD in Mobile Learning from Lancaster University, UK, and an MBA.<br /><br />
                         
                         A good teacher and engaging trainer, RK helps people learn and bloom. His priorities are his employees, his customers, and his community.</p>
                 </div>
                 <div class="profile-cart">
                     <img class="host-image" src="https://resources.commlabindia.com/hubfs/cli-main-site/about-us/Shalini.jpg" alt="'profile" />
-                    <h1>Shalini Merugu</h1>
-                    <h2>Director - Learning Solutions</h2>
-                    <p>Shalini is a versatile learning design professional with 16+ years of experience in instructional design (ILT, VILT, and eLearning).
+                    <h1 class="host-name">Shalini Merugu</h1>
+                    <h2 class="host-disignation">Director - Learning Solutions</h2>
+                    <p class="profile-pragraph">Shalini is a versatile learning design professional with 16+ years of experience in instructional design (ILT, VILT, and eLearning).<br />
+                        <br />
 
                         Her experience in designing eLearning solutions along with designing and delivering instructor-led training helps her leverage the strengths of each medium to consistently create impactful training solutions, ensuring that nothing is lost when converting from one format to another.
+                        <br />
+                        <br />
                         
                         Apart from improving the quality of learning solutions, she also conducts customer education workshops at customer sites globally and presents webinars on learning design.</p>
                 </div>
                 <div class="profile-cart">
                     <img class="host-image" src="https://resources.commlabindia.com/hubfs/cli-main-site/about-us/rajesh-v4.jpg" alt="'profile" />
-                    <h1>Rajesh Venkata</h1>
-                    <h2>Director – Innovation</h2>
-                    <p>Rajesh started his career as a Quality Executive in 2008, and gained expertise in eLearning, digital content delivery, and project management, over these 15+ years.
+                    <h1 class="host-name">Rajesh Venkata</h1>
+                    <h2 class="host-disignation">Director – Innovation</h2>
+                    <p class="profile-pragraph">Rajesh started his career as a Quality Executive in 2008, and gained expertise in eLearning, digital content delivery, and project management, over these 15+ years.
+                        <br />
+                        <br />
+
 
                         Rajesh has an excellent track record of team management and operational planning, along with good knowledge of eLearning authoring tools such as Storyline, Captivate, and Lectora.
+                        <br />
+                        <br />
                         
                         Well-experienced in managing multiple projects for global clients, Rajesh has a keen eye for trends in the tech-enabled learning space. This made him the natural choice for the current role, where he researches the latest tools and tech, and guides the CommLab India team in leveraging them to address training needs faster, better, and er.</p>
                 </div>
@@ -134,27 +145,29 @@
             <div class="popup-content">
                 <span class="close-button" onclick="closePopup()">&times;</span>
                 <h2>Rigister for the Free webinar</h2>
-                <div>
-                <label for ='firstname'>FirstName<span class="star-symbol">*</span></label>
+                <div class="first-last-cart">
+                    <div class="firstname-cart">
+                    <label for ='firstname'>FirstName<span class="star-symbol">*</span></label>
+                    <input class="custom-input first-name-input" type="text" id="firstName" placeholder="First Name"/>
+                    <div id="errorFirstName" class="error-message"></div>
+                    </div>
                 
-                <br />
-                <input class="custom-input" type="text" id="firstName" placeholder="First Name"/>
-                <div id="errorFirstName" class="error-message"></div>
-                <br />
-                <label for ='lasttname'>LasttName<span class="star-symbol">*</span></label>
-                <br />
-                <input type="text" id="lastName" placeholder="Last Name" />
-                <div id="errorLastName" class="error-message"></div>
+                    <div class="lastname-cart">
+                    <label for ='lasttname'>LasttName<span class="star-symbol">*</span></label>
+                    <input class="last-name-input" type="text" id="lastName" placeholder="Last Name" />
+                    <div id="errorLastName" class="error-message"></div>
+                    </div>
                 </div>
+
                 <br />
                 <label for ='email'>Email<span class="star-symbol">*</span></label>
                 <br />
-                <input type="email" id="email" placeholder="Email"/>
+                <input class="email" type="email" id="email" placeholder="Business Email"/>
                 <div id="errorEmail" class="error-message"></div>
                 <br />
                 <label for ='number'>Phone number<span class="star-symbol">*</span></label>
                 <br />
-                <input type="text" id="number" placeholder="Phonenumber"/>
+                <input class="phone-num" type="text" id="number" placeholder="Phone Number"/>
                 <div id="errorPhone" class="error-message"></div>
                 <br />
                 <button class="secure-seat-btn" type="button" onclick="saveDetails()">Secure  Your seat</button>
@@ -164,10 +177,14 @@
 
         <div class="company-logo-cart">
             <div class="logo-copyright">
-                <img src="https://resources.commlabindia.com/hubfs/commlab_logo/cl-logo-final-white.png" alt="logo-company" class="comapny-logo"/>
-                <p>Copyright © 2023, CommLab India</p>
+                <a href="https://www.commlabindia.com/" target="_blank">
+                    <img src="https://resources.commlabindia.com/hubfs/commlab_logo/cl-logo-final-white.png" alt="logo-company" class="comapny-logo"/>
+                </a>
+
+                
+                
             </div>
-            <p class="privacy-policy">Privacy Policy | Site Map</p>
+            <a href="https://www.commlabindia.com/privacy-policy" class="copy-right-anchor" target="_blank" ><p>Copyright © 2023||CommLab India</p></a>
         </div>
 
 
